@@ -1,6 +1,6 @@
 # ReactiveAerospike
 
- ReactiveAerospike is a pure functional and type safe Scalawrapper for the [Aerospike Java Client Library
+ ReactiveAerospike is a pure functional and type safe Scala wrapper for the [Aerospike Java Client Library
 ](https://github.com/aerospike/aerospike-client-java).
 
  It makes use of the `async` client and return values are wrapped into Futures that can easily be mapped to your preferred Future implementation (we bundle with default standard Scala Futures but we also provide an example that you can use with [Twitter Futures](https://github.com/twitter/util#futures))
